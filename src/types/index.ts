@@ -1,14 +1,11 @@
 export interface Article {
   id: string;
   title: string;
-  excerpt: string;
-  content: string;
-  image: string;
-  author: User;
-  likes: number;
-  comments: number;
-  shares: number;
-  createdAt: string;
+  by: string;
+  type: string;
+  score: number;
+  descendants: number;
+  time: string;
 }
 
 export interface User {
